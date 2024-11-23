@@ -12,7 +12,7 @@ icon: "fas fa-skull-crossbones" # Optional icon
 links:
   - name: "Home"
     icon: "fas fa-book"
-    url: "https://mix.youya.org/homelab"
+    url: "https://mix.youya.org/mixhub/"
   # this will link to a second homer page that will load config from additional-page.yml and keep default config values as in config.yml file
   # see url field and assets/additional-page.yml.dist used in this example:
   #- name: "another page!"
@@ -118,4 +118,4 @@ services:
         icon: "fa-solid fa-icons"
         subtitle: "Dashboard icons"
         tag: "setup"
-        url: "https://mix.youya.org/homelab"
+        url: "https://mix.youya.org/mixhub/"
