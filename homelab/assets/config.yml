@@ -2,8 +2,8 @@
 # Homepage configuration
 # See https://fontawesome.com/search for icons options
 
-title: "Homelab Dashboard"
-subtitle: "A simple Homelab services panel"
+title: "Personal Dashboard"
+subtitle: "A simple Homepage for all services"
 # logo: "logo.png"
 icon: "fas fa-skull-crossbones" # Optional icon
 
@@ -20,12 +20,12 @@ links:
   #  url: "#additional-page"
 
 # Optional message
-message:
-  #url: https://b4bz.io
-  style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
-  title: "Notice"
-  icon: "fa fa-grin"
-  content: "Homelab services are only accessible from LAN."
+# message:
+#   #url: https://b4bz.io
+#   style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
+#   title: "Notice"
+#   icon: "fa fa-grin"
+#   content: "Homelab services are only accessible from LAN."
 
 header: true
 footer: false
@@ -73,8 +73,26 @@ defaults:
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  - name: "Services"
+  - name: "Online Services"
     icon: "fas fa-cloud"
+    items:
+      - name: "Markdown Editor"
+        icon: "fa-solid fa-pen-to-square"
+        subtitle: "Powerfull Markdown Editor"
+        tag: "tool"
+        url: "https://mix.youya.org/md2pdf/"
+      - name: "Clash Dashboard"
+        icon: "fa-solid fa-shield-cat"
+        subtitle: "WebUI of Clash"
+        tag: "tool"
+        url: "https://mix.youya.org/clash/"
+      - name: "Aria2"
+        icon: "fa-solid fa-cloud-arrow-down"
+        subtitle: "Aria2 Web UI"
+        tag: "tool"
+        url: "https://mix.youya.org/aria2/"
+  - name: "Homelab Services"
+    icon: "fas fa-house-lock"
     items:
       - name: "AdGuard Home"
         icon: "fa-solid fa-shield-halved"
