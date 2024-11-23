@@ -32,7 +32,7 @@ footer: false
 # footer: '<p>Powered by Homer</p>' # set false if you want to hide it.
 
 # Optional theme customization
-theme: default
+theme: default # themes available in 'src/assets/themes'
 
 # Optional theme customization (color overrrides)
 # overrrides can also be done using CSS vars
@@ -63,6 +63,11 @@ colors:
     card-shadow: rgba(0, 0, 0, 0.4)
     link: "#3273dc"
     link-hover: "#ffdd57"
+
+# Set the default layout and color scheme
+defaults:
+  layout: list # Either 'columns', or 'list'
+  colorTheme: auto # One of 'auto', 'light', or 'dark'
 
 # Services
 # First level array represent a group.
