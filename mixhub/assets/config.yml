@@ -85,7 +85,7 @@ services:
         icon: "fa-solid fa-shield-cat"
         subtitle: "Clash Meta Dashboard"
         tag: "tool"
-        url: "https://mix.youya.org/clash-meta/"
+        url: "https://mix.youya.org/clash-yacd/"
       - name: "Aria2"
         icon: "fa-solid fa-cloud-arrow-down"
         subtitle: "Aria2 Web UI"
