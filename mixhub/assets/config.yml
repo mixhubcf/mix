@@ -103,7 +103,7 @@ services:
         icon: "fa-solid fa-hard-drive"
         subtitle: "Centralized drives"
         tag: "tool"
-        url: "https://mix.youya.org/mixhub/"
+        url: "https://lab.youya.org:5443/alist"
       - name: "Mi Music"
         icon: "fa-solid fa-music"
         subtitle: "Music for Xiaomi Sound Box"
